@@ -41,9 +41,6 @@ class MainMenu extends Scene
 		addGraphic(new Image("graphics/creditsButton.png"), 1, 280, 530);
 		
 		add(new MenuSelector(310, 388));
-		
-		
-		
 	}
 	
 	
@@ -52,10 +49,9 @@ class MainMenu extends Scene
 	// Called after the scene is no longer the current scene.
 	
 	public override function end(){
-	
 		music.stop();
 		removeAll();
 		super.end();
-	
 	}
+
 }

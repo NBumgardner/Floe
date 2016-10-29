@@ -1,6 +1,5 @@
 package scenes;
 
-
 import com.haxepunk.HXP; //for debug
 import com.haxepunk.Scene;
 import entities.GameOverSplash;
@@ -33,7 +32,6 @@ class GameOver extends Scene
 		add(GM);
 		
 		add(new GameOverSplash(0,0));
-		
 	}
 	
 	
@@ -45,4 +43,5 @@ class GameOver extends Scene
 		removeAll();
 		super.end();
 	}
+	
 }

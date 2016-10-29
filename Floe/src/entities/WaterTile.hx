@@ -1,5 +1,4 @@
 package entities;
-	  
 
 import entities.Tile;
 import com.haxepunk.graphics.Spritemap;

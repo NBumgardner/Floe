@@ -66,7 +66,6 @@ class GameScene extends Scene {
 			pausedMenu = new PauseMenu();
 		}
 		hud = GameManager.hud;
-		
 	}
 	
 
@@ -86,12 +85,10 @@ class GameScene extends Scene {
 			add( new SampleEnemy(x, y) );
 			return 1;
 		}
-		
 		else if (rand < .22 && maxDifficulty >= 2){
 			add( new FireEnemy(x, y) );
 			return 2;
 		}
-		
 		else if (rand < .33 && maxMist >= 1){
 			add( new MistEnemy(x, y) );
 			return -1;
